@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .ban-sec{
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+  }
+
+  .banner {
+    text-align: center;
+    background: url("https://img.freepik.com/free-photo/beautiful-constellations-tent-outdoors_23-2149988829.jpg?t=st=1732607331~exp=1732610931~hmac=1f7a380781a032cd1bc580d46a86c030a1bb033a00260c170588c848f8478397&w=996") no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    height: 100vh;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+  }
+  
+  .banner .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  #destinations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .destinations-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .destination {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .destination img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }

@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #007BFF; /*modified*/
     color: white;
   }
   
@@ -39,10 +39,10 @@ body {
   
   .ban-sec{
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
   }
 
   .banner {
